@@ -1,0 +1,95 @@
+1.- Explain the difference between unit tests, integration tests, and acceptance tests.
+    The unit test is for testing an individual piece of code
+
+    An integration test is the testing of many units together this is to make sure the 
+    code works together and this includes dependencies, database, and libraries
+
+    The acceptance test is to make sure the program works as a costumer or the user 
+    expected to work, is to ensure that it works as everyone expects to
+
+2.- How does SCRUM work?
+    Scrum is for developed a project in short increments that are called “sprints” this 
+    sprint must take less than a month, in the sprint, we have 3  roles. These 3 roles are going to complete 4 tasks 
+
+    The roles are 
+
+      1. Product Owner, that represent the customer and understand the product requirements, 
+      managing the product backlog, prioritizes features to be developed
+      2. Development team, this is the development area, the coding the guys who do the work, 
+      they are self-organized and they create their won efficient means for completing the work. 
+      This includes UI/UX, QA testers, and more. 
+      3. The scrum master, no this is not a project manager, this person is to make sure that the 
+      SCRUM process follow the  SCRUM principles, this person doesn’t assign a task or review the work
+
+    SCRUM Task
+
+      1. Sprint Planning, involves the whole team and is for determining the workflow of the sprints, 
+      here the product owner defines an objective for the saints and identifies what items need to be 
+      developed to achieve the goal, the development team determines how these items will be built and 
+      create a sprint backlog that defines their plan
+      2. The daily scrum this is the heart of the process, is a quick 15 minute top meeting to report status, 
+      synchronizes the planned work or /and resolve any issues 
+      3. Sprint review this is to look over the work and makes adjustments to the product backlog, this is 
+      the only meeting that can include participants outside the scrum team 
+      4. Sprint retrospective limited to the SCRUM team and is to see how the SCRUM process can help the team 
+      to work more effectively during the next sprint
+
+Scrum methodology implements the manifesto's principles in a straightforward way. The manifesto didn't propose 
+a specific methodology. Instead, it addresses the heart of engineers’ concerns, defining the values and principles 
+for how software development should proceed. Rather than being structured around rigid procedures and mandatory documentation 
+(the main reason the Waterfall method failed)this manifesto says: 
+
+• Individuals and interactions over processes and tools.
+• Working software over comprehensive documentation.
+• Customer collaboration over contract negotiation.
+• Responding to change over following a plan.
+
+3.- Kent Beck was the creator of Extreme Programming methodology, he proposed a new way to create 
+software called TDD (Test-Driven Development). Explain how TDD works and why it is important to use it.
+
+  It is a process that is based on the repetition of small development cycles. software requirements 
+  are converted into specific test cases, and then the software is built with the focus of passing these new tests.
+
+  The steps to follow for this way of creating software are:
+
+    1. Develop a test: To achieve this, the software engineer must have a clear understanding of the 
+    requirements, conditionals and edge cases.
+    this is essential for the developer to focus first on the requirements before creating code
+
+    2. Write code
+
+    3. Validate the tests. If the code developed in the previous stage passes all the established tests, 
+    then it is safe to say that the software passes the defined requirements.
+
+    4. Refactoring, This stage of code refactoring occurs every certain number of completed cycles.
+
+  It is important because it streamlines the process of creating a clean code. The most common is to make 
+  mistakes, but thanks to the TDD, we are detecting and solving them instantly. With this method we get a much faster, more decisive work, with fewer errors and more focused on the end user, since each of the tests to which we submit the code are focused on the end user.
+
+4.- Explain how Continuous Integration works and list its benefits.
+    The software code is contained in a shared repository, accessible to all the developers so they can 
+    check the code to individual workstations. When they think the code is ready,  they push the code back 
+    into the repository to commit changes. From there, the automated CI server takes over, automatically building 
+    the system and running unit and integration tests to ensure the code did not break another part of the software. 
+    If the build is unsuccessful, the server pinpoints wherein the testing process the code failed, letting the 
+    team address it at the earliest point of failure.
+
+    This CI process occurs many times per day, meaning the system constantly builds and tests new code. The updated 
+    software can then be released manually, or DevOps teams can further automate the project by electing to have the 
+    system deploy and deliver the product
+
+    some benefits are:
+      1. Smaller Code changes
+      2. Limiting the scope of problems 
+      3. Faster Mean Time To Resolution
+      4. More test Reliability
+      5. Faster realese Rate
+      6. smaller backlog
+      7. Quality
+      8. Stable code
+      9. Flexibility of the code 
+      10. Faster on-boarding for new team members
+
+5.- What are the main DevOps principles ?
+automation, continuos delivery, fast reaction to feedback
+
