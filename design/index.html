@@ -9,120 +9,129 @@
   <title>Document</title>
 </head>
 
-<style>
-  table {
-    height: 90px;
-    border-collapse: collapse;
-    border-left: 2px solid #6495ED;
-    text-align: left;
-    background-color: white;
-    padding-top: 50px;
-    margin-left: 20px;
-    margin-right: 0;
-    width: 900px;
-
-    #tr {
-      text-align: left;
-    }
-
-    #th {
-      text-align: left;
-      width: 120px;
-    }
-  }
-
-  div {
-    background-color: #dbdad7;
-    height: 450px;
-
-  }
-</style>
-
 <body>
-  <div>
-    <br>
-    <table>
-      <tr>
-        <th>Ruta</th>
-        <th>Conductor</th>
-        <th>Creada</th>
-        <th>Inicio</th>
-        <th>Termino</th>
-        <th>Entregas</th>
-        </th>
-      </tr>
-      <tr>
-        <td>GR010</td>
-        <td>José Luis Cepeda</td>
-        <td>1 de Enero del 2019</td>
-        <td>13:00</td>
-        <td>-</td>
-        <td>3</td>
-        <td><img id="inicio" src="./images/en_ruta.png" width="" height="20px" style="display: inline;"></td>
-      </tr>
-    </table>
-    <br>
-    <table>
-      <th>Ruta</th>
-      <th>Conductor</th>
-      <th>Creada</th>
-      <th>Inicio</th>
-      <th>Termino</th>
-      <th>Entregas</th>
-      </th>
-      </tr>
-      <tr>
-        <td>RG020</td>
-        <td>Luis Ángel</td>
-        <td>1 de Enero del 2019</td>
-        <td>13:00</td>
-        <td>-</td>
-        <td>3</td>
-        <td><img id="inicio" src="./images/completada.png" width="" height="20px" style="display: inline;"></td>
-      </tr>
-    </table>
-    <br>
-    <table>
-      <th>Ruta</th>
-      <th>Conductor</th>
-      <th>Creada</th>
-      <th>Inicio</th>
-      <th>Termino</th>
-      <th>Entregas</th>
-      </th>
-      </tr>
-      <tr>
-        <td>RG030</td>
-        <td>Juan Manuel</td>
-        <td>1 de Enero del 2019</td>
-        <td>13:00</td>
-        <td>15:23</td>
-        <td>4</td>
-        <td><img id="inicio" src="./images/completada.png" width="" height="20px" style="display: inline;"></td>
-      </tr>
-    </table>
-    <br>
-    <table>
-      <th>Ruta</th>
-      <th>Conductor</th>
-      <th>Creada</th>
-      <th>Inicio</th>
-      <th>Termino</th>
-      <th>Entregas</th>
-      </th>
-      </tr>
-      <tr>
-        <td>RG040</td>
-        <td>enrique Ávila</td>
-        <td>1 de Enero del 2019</td>
-        <td>13:00</td>
-        <td>-</td>
-        <td>4</td>
-        <td><img id="inicio" src="./images/en_ruta.png" width="" height="20px" style="display: inline;"></td>
-      </tr>
-    </table>
+  <div class="grid-container">
+    <div class="grid-item">
+      <p>Ruta</p>
+      <h4>RG010</h4>
+    </div>
+    <div class="grid-item">
+      <p>Conductor</p>
+      <h3>José Luis</h3>
+    </div>
+    <div class="grid-item">
+      <p>Creada</p>
+      <h3>1 de Enero del 2019</h3>
+    </div>
+    <div class="grid-item">
+      <p>Inicio</p>
+      <h3>13:00</h3>
+    </div>
+    <div class="grid-item">
+      <p>Terminó</p>
+      <h3>-</h3>
+    </div>
+    <div class="grid-item">
+      <p>Entregas</p>
+      <h3>3</h3>
+    </div>
+    <div class="grid-item">
+      <p></p>
+      <img id="ruta" src="./images/en_ruta.png" height="30px">
+    </div>
 
+
+    <div class=" grid-item">
+      <p>Ruta</p>
+      <h4>RG020</h4>
+    </div>
+    <div class="grid-item">
+      <p>Conductor</p>
+      <h3>Luis Ángel</h3>
+    </div>
+    <div class="grid-item">
+      <p>Creada</p>
+      <h3>1 de Enero del 2019</h3>
+    </div>
+    <div class="grid-item">
+      <p>Inicio</p>
+      <h3>13:00</h3>
+    </div>
+    <div class="grid-item">
+      <p>Terminó</p>
+      <h3>13:36</h3>
+    </div>
+    <div class="grid-item">
+      <p>Entregas</p>
+      <h3>5</h3>
+    </div>
+    <div class="grid-item">
+      <p></p>
+      <img id="ruta" src="./images/completada.png" height="30px">
+    </div>
+
+
+    <div class=" grid-item">
+      <p>Ruta</p>
+      <h4>RG030</h4>
+    </div>
+    <div class="grid-item">
+      <p>Conductor</p>
+      <h3>Juan Manuel</h3>
+    </div>
+    <div class="grid-item">
+      <p>Creada</p>
+      <h3>1 de Enero del 2019</h3>
+    </div>
+    <div class="grid-item">
+      <p>Inicio</p>
+      <h3>13:00</h3>
+    </div>
+    <div class="grid-item">
+      <p>Terminó</p>
+      <h3>15:23</h3>
+    </div>
+    <div class="grid-item">
+      <p>Entregas</p>
+      <h3>4</h3>
+    </div>
+    <div class="grid-item">
+      <p></p>
+      <img id="ruta" src="./images/completada.png" height="30px">
+    </div>
+
+
+    <div class="grid-item">
+      <p>Ruta</p>
+      <h4>RG040</h4>
+    </div>
+    <div class="grid-item">
+      <p>Conductor</p>
+      <h3>Enrique Ávila</h3>
+    </div>
+    <div class="grid-item">
+      <p>Creada</p>
+      <h3>1 de Enero del 2019</h3>
+    </div>
+    <div class="grid-item">
+      <p>Inicio</p>
+      <h3>13:00</h3>
+    </div>
+    <div class="grid-item">
+      <p>Terminó</p>
+      <h3>-</h3>
+    </div>
+    <div class="grid-item">
+      <p>Entregas</p>
+      <h3>2</h3>
+    </div>
+    <div class="grid-item">
+      <p></p>
+      <img id="ruta" src="./images/en_ruta.png" height="30px">
+    </div>
   </div>
+
+
 </body>
 
 </html>

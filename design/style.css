@@ -1,0 +1,28 @@
+.grid-container {
+  display: grid;
+  grid-row-gap: 5px;
+  grid-template-columns:auto auto auto auto auto auto auto;
+  background-color: rgb(220, 221, 222);
+  padding: 10px;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  text-align: left;
+  color: #808080;
+
+p{
+  font-size: 20px;
+}
+
+h4{
+  font-size: 25px;
+  color: black;
+}
+}
+
+
+
+
